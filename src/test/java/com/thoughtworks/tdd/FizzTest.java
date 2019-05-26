@@ -14,4 +14,14 @@ public class FizzTest {
         //then
         assertEquals("1", actual);
     }
+
+    @Test
+    void should_return_2_given_FizzBuzz_when_fizz_buzz_input_2() {
+        //given
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //when
+        String actual = fizzBuzz.fizzBuzz(2);
+        //then
+        assertEquals("2", actual);
+    }
 }
