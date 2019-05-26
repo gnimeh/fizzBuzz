@@ -29,4 +29,11 @@ public class FizzTest {
         //then
         assertEquals("2", actual);
     }
+    @Test
+    void should_return_Fizz_given_FizzBuzz_when_fizz_buzz_input_3() {
+        //when
+        String actual = fizzBuzz.fizzBuzz(3);
+        //then
+        assertEquals("Fizz", actual);
+    }
 }
