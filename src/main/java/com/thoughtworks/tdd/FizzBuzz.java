@@ -2,21 +2,19 @@ package com.thoughtworks.tdd;
 
 public class FizzBuzz {
     public String fizzBuzz(int i) {
+        String result = "";
         if (i % 3 == 0) {
-            if (i % 5 == 0) {
-                return "FizzBuzz";
-            }
-            if (i % 7 == 0) {
-                return "FizzWhizz";
-            }
-            return "Fizz";
+            result += "Fizz";
         }
         if (i % 5 == 0) {
-            return "Buzz";
+            result += "Buzz";
         }
         if (i % 7 == 0) {
-            return "Whizz";
+            result += "Whizz";
         }
-        return String.valueOf(i);
+        if(result.equals("")){
+            return String.valueOf(i);
+        }
+        return result;
     }
 }
