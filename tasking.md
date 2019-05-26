@@ -12,3 +12,6 @@ output Buzz
 
 input 7
 output Whizz
+
+input 15
+output FizzBuzz
