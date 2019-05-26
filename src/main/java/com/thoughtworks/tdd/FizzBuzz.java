@@ -6,12 +6,15 @@ public class FizzBuzz {
             if (i % 5 == 0) {
                 return "FizzBuzz";
             }
+            if (i % 7 == 0) {
+                return "FizzWhizz";
+            }
             return "Fizz";
         }
-        if(i % 5 == 0){
+        if (i % 5 == 0) {
             return "Buzz";
         }
-        if (i % 7 == 0){
+        if (i % 7 == 0) {
             return "Whizz";
         }
         return String.valueOf(i);

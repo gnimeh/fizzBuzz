@@ -15,3 +15,6 @@ output Whizz
 
 input 15
 output FizzBuzz
+
+input 21
+output FizzWhizz
