@@ -12,6 +12,6 @@ public class FizzTest {
         //when
         String actual = fizzBuzz.fizzBuzz(1);
         //then
-        assertEquals(1, fizzBuzz.fizzBuzz(1));
+        assertEquals("1", actual);
     }
 }
